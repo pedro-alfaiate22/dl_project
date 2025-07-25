@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 computed_features/modelT_train_features.npy filter=lfs diff=lfs merge=lfs -text
+computed_features/*.npy filter=lfs diff=lfs merge=lfs -text
